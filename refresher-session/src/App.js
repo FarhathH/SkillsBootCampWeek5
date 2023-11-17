@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"> 
-        <Counter/> {/* print outs function  */}
+        <Counter startNum = {45}/> {/* print outs function  */}
+        <Counter startNum = {18}/> {/* print outs function  */}
+        
       </header>
     </div>
   );
