@@ -1,10 +1,10 @@
 import './counter.css'
-import {useState} from 'react';
+import {useState} from 'react'; // imported useState for the shorthand function
 
 function Counter(){ //made function for counting.
     const [count, setCount] = useState(0); //splitting values
     
-    return (
+    return ( //will return this info on the react app
         <>
         <div class = "layout">
             <button onClick = {() => setCount(count+1)} className = "button">CLICK ME</button>
